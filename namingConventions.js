@@ -8,19 +8,19 @@ console.log(getUserInfo());
 
 // PascalCase
 class UserProfile {
-    constructor(firstName, lastName) {  
-        this.firstName = firstName;
-        this.lastName = lastName;
+    constructor(FirstName, LastName) {  
+        this.FirstName = FirstName;
+        this.LastName = LastName;
     }
 }   
-const userProfile = new UserProfile("John", "Doe");
-console.log(userProfile);
+const UserProfileObject = new UserProfile("John", "Doe");
+console.log(UserProfileObject);
 
 // snake_case
 let user_address = "123 Main St";
 let user_phone_number = "555-1234";
 
-function getUserContact() {
+function get_user_contact() {
     return `Address: ${user_address}, Phone: ${user_phone_number}`;
 }   
 console.log(getUserContact());
